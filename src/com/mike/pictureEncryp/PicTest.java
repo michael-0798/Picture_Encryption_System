@@ -12,13 +12,13 @@ public class PicTest {
 		PicUtility pu = new PicUtility();
 		
 		// encrypt the picture
-		File f1 = new File("C:\\Users\\mikew\\Desktop\\test\1.jpg");
-		File f2 = new File("C:\\Users\\mikew\\Desktop\\test\2.jpg");
+		File f1 = new File("C:\\Users\\mikew\\Desktop\\test\\1.jpg");
+		File f2 = new File("C:\\Users\\mikew\\Desktop\\test\\2.jpg");
 		
 		pu.picEncrypt(f1, f2);
 		
 		// unencrypt the picture
-		File f3 = new File("C:\\Users\\mikew\\Desktop\\test\3.jpg");
+		File f3 = new File("C:\\Users\\mikew\\Desktop\\test\\3.jpg");
 		pu.picUnEncrypt(f2, f3);
 	}
 
